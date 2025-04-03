@@ -1,0 +1,94 @@
+.main-background{
+  background: url("./images/colorful.png") no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  margin: 0 auto;
+  justify-content:center;
+}
+
+.canvas {
+  background: #FFEBCD;
+  display: block;
+  border-radius: 25px;
+  margin: 5% 0;
+}
+
+.fa-github{
+  font-size: 52px;
+  color: #FFFAF0;
+}
+.fa-github:hover{
+  font-size: 65px;
+  color: #00FFFF
+}
+
+.links {
+  padding-left: 25px;
+  display: flex;
+  flex-direction: column;
+  min-height: 250px;
+  justify-content: space-between;
+}
+
+.fa-linkedin{
+  font-size: 52px;
+  color: #FFFAF0;
+}
+.fa-linkedin:hover{
+  font-size: 65px;
+  color: #00FFFF;
+}
+
+.fa-angellist{
+  font-size: 52px;
+  color:#FFFAF0;
+}
+.fa-angellist:hover{
+  font-size: 65px;
+  color: #00FFFF;
+}
+
+.game-name{
+  position:absolute;
+  padding-top: 950px;
+  font-family: 'Slabo 13px', serif;
+  font-size: 90px;
+  text-align: center;
+  font-weight:bold;
+  color: #ff5b51;
+  text-shadow: 4px 4px 4px white;
+}
+
+.music{
+position:fixed;
+flex-direction: column;
+padding-bottom: 1000px;
+font-size: 10px;
+}
+
+.author{
+  position:absolute;
+  padding-top: 1250px;
+  font-family: 'Slabo 13px', serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight:lighter;
+  color: #ff5b51;
+}
+
+.instruction{
+  /* position:absolute; */
+  /* padding-right: 1960px; */
+  padding-top: 140px;
+  /* left:2%; */
+  font-family: 'Slabo 13px', serif;
+  font-size: 20px;
+  font-weight:lighter;
+  color: white;
+}
+
+.scale {
+  transform: scale(0.6)
+}
